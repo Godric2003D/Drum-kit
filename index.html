@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Drum Kit</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+  
+</head>
+
+<body>
+
+  <h1 id="title">Drum 🥁 Kit</h1>
+  <div class="set">
+    <button class="w drum" onkeydown="w(event)" onclick="audio1()" >w</button>
+    <button class="a drum" onclick="audio2()" onkeydown="a(event)">a</button>
+    <button class="s drum" onclick="audio3()" onkeydown="s(event)">s</button>
+    <button class="d drum" onclick="audio4()" onkeypress="d(event)">d</button>
+    <button class="j drum" onclick="audio5()" onkeypress="j(event)">j</button>
+    <button class="k drum" onclick="audio6()" onkeypress="k(event)">k</button>
+    <button class="l drum" onclick="audio7()" onkeypress="l(event)">l</button>
+    
+  </div>
+  <audio id="a" src="sounds/crash.mp3"></audio>
+  <audio id="b" src="sounds/kick-bass.mp3"></audio>
+  <audio id="c" src="sounds/snare.mp3"></audio>
+  <audio id="d" src="sounds/tom-1.mp3"></audio>
+  <audio id="e" src="sounds/tom-2.mp3"></audio>
+  <audio id="f" src="sounds/tom-3.mp3"></audio>
+  <audio id="g" src="sounds/tom-4.mp3"></audio>
+
+
+  <footer>
+    Made by Debayan Ray ❤️ 
+  </footer>
+  <script src="index.js"></script>
+</body>
+
+</html>
